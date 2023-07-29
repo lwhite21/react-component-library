@@ -1,0 +1,46 @@
+.simplicity-button {
+  font-family: '-apple-system','BlinkMacSystemFont','segoe ui','Roboto','helvetica neue','Arial','noto sans','sans-serif','apple color emoji','segoe ui emoji','segoe ui symbol','noto color emoji';
+  font-weight: 400;
+  border: 0;
+  border-radius: .25em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+}
+
+.simplicity-button-primary {
+  color: white;
+  background-color: #007bff;
+  transition: .2s;
+}
+
+.simplicity-button-primary:hover {
+  background-color: #238cfc;
+}
+
+.simplicity-button-secondary {
+  color: black;
+  background-color: white;
+  transition: .2s;
+  box-shadow: rgba(0, 0, 0, .15) 0px 0px 0px 1px inset;
+}
+
+.simplicity-button-secondary:hover {
+  background-color: #fcfcfc;
+  box-shadow: #007bff 0px 0px 0px 1px inset;
+}
+
+.simplicity-button-small {
+  font-size: 12px;
+  padding: 4.5px 8px;
+}
+
+.simplicity-button-medium {
+  font-size: 16px;
+  padding: 8px 14px;
+}
+
+.simplicity-button-large {
+  font-size: 22px;
+  padding: 11.5px 20px;
+}

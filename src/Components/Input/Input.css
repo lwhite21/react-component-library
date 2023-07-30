@@ -1,0 +1,26 @@
+.simplicity-input {
+    font-family: '-apple-system','BlinkMacSystemFont','segoe ui','Roboto','helvetica neue','Arial','noto sans','sans-serif','apple color emoji','segoe ui emoji','segoe ui symbol','noto color emoji';
+    border-radius: .25em;
+    transition: .2s;
+    border: 1px solid rgba(0, 0, 0, .15);
+    outline: none;
+}
+
+.simplicity-input:focus {
+    border: 1px solid #007bff !important;
+}
+
+.simplicity-input-small {
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.simplicity-input-medium {
+    font-size: 16px;
+    padding: 4.5px 8px;
+}
+
+.simplicity-input-large {
+    font-size: 20px;
+    padding: 5.5px 10px;
+}

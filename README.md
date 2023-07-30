@@ -1,3 +1,5 @@
 # react-simplicity
 
-React Simplicity is a react UI library created by Logan.
+React Simplicity is a library of simple and easy to use custom UI components. 
+
+Created by Logan.

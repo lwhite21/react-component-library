@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import './Input.css';
 import searchIconWhite from '../Assets/simplicity-search-icon-white.svg'

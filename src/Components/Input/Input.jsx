@@ -1,8 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './Input.css';
-import searchIconWhite from '../Assets/simplicity-search-icon-white.svg'
-import searchIconGray from '../Assets/simplicity-search-icon-gray.svg'
+import searchIcon from '../Assets/search.png'
 
 export const Input = ({ placeholder, size, search, onPressEnter, onSearch, ...props }) => {  
   const handleKeyDown = (event) => {
@@ -31,9 +30,10 @@ export const Input = ({ placeholder, size, search, onPressEnter, onSearch, ...pr
         />
       </span>
       {search != undefined ? 
-        <img className={`simplicity-input-search-button simplicity-input-${search} simplicity-input-search-button-${size}`}
-        src={search === 'search-primary' ? searchIconWhite : searchIconGray}
-        onClick={handleSearchPressed}/>
+        <div className={`simplicity-input-search-button simplicity-input-${search} simplicity-input-search-button-${size}`}
+        onClick={handleSearchPressed}>
+          <img className={`simplicity-search-icon simplicity-search-icon-${search}`} src={searchIcon}/>
+        </div>
         : <></>}
     </div>
   );

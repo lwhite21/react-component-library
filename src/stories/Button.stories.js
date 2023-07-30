@@ -24,3 +24,11 @@ export const Secondary = {
     size: 'medium',
   },
 };
+
+export const Link = {
+  args: {
+    variant: 'link',
+    children: 'Link',
+    size: 'medium',
+  },
+};

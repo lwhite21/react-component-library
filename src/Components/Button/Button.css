@@ -6,41 +6,66 @@
   cursor: pointer;
   display: inline-block;
   line-height: 1;
+  transition: .2s;
+  color: white;
+  background-color: #007bff;
 }
 
 .simplicity-button-primary {
   color: white;
   background-color: #007bff;
-  transition: .2s;
 }
 
 .simplicity-button-primary:hover {
   background-color: #238cfc;
 }
 
+.simplicity-button-primary:active {
+  background-color: #0067d6;
+}
+
 .simplicity-button-secondary {
   color: black;
   background-color: white;
-  transition: .2s;
-  box-shadow: rgba(0, 0, 0, .15) 0px 0px 0px 1px inset;
+  border: 1px solid rgba(0, 0, 0, .15);
 }
 
 .simplicity-button-secondary:hover {
+  border: 1px solid #007bff;
+}
+
+.simplicity-button-secondary:active {
+  border: 1.75px solid #0067d6;
   background-color: #fcfcfc;
-  box-shadow: #007bff 0px 0px 0px 1px inset;
+}
+
+.simplicity-button-link {
+  color: #007bff;
+  background-color: transparent;
+}
+
+.simplicity-button-link:hover {
+  color: #238cfc;
+}
+
+.simplicity-button-link:active {
+  color: #0067d6;
 }
 
 .simplicity-button-small {
   font-size: 12px;
-  padding: 4.5px 8px;
+  padding: 0px 7px;
+  height: 24px;
 }
 
 .simplicity-button-medium {
   font-size: 16px;
-  padding: 8px 14px;
+  padding: 0px 10px;
+  height: 32px;
 }
 
 .simplicity-button-large {
   font-size: 22px;
-  padding: 11.5px 20px;
+  padding: 0px 14px;
+  height: 40px;
 }

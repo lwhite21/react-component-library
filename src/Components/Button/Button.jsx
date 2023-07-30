@@ -16,7 +16,7 @@ Button.propTypes = {
   /**
    * Use the variant property to change the styling of your button.
    */
-  variant: PropTypes.oneOf(['primary', 'secondary']),
+  variant: PropTypes.oneOf(['primary', 'secondary', 'link']).isRequired,
   /**
    * Specify the size of the button.
    */
@@ -26,7 +26,7 @@ Button.propTypes = {
    */
   children: PropTypes.string.isRequired,
   /**
-   * Optional click handler
+   * Detects when the button is clicked.
    */
   onClick: PropTypes.func,
 };
@@ -34,5 +34,6 @@ Button.propTypes = {
 Button.defaultProps = {
   variant: 'primary',
   size: 'medium',
+  children: undefined,
   onClick: undefined,
 };

@@ -1,6 +1,6 @@
 {
   "name": "react-simplicity",
-  "version": "1.1.5",
+  "version": "1.1.10",
   "description": "React Simplicity is a library of simple and easy to use custom UI components.",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -15,6 +15,7 @@
   "devDependencies": {
     "@babel/core": "^7.22.9",
     "@babel/preset-react": "^7.22.5",
+    "@rollup/plugin-image": "^3.0.2",
     "@rollup/plugin-node-resolve": "^15.1.0",
     "@storybook/addon-essentials": "^7.1.1",
     "@storybook/addon-interactions": "^7.1.1",
@@ -32,7 +33,6 @@
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
-    "rollup-plugin-svgo": "^2.0.0",
     "rollup-plugin-terser": "^7.0.2",
     "storybook": "^7.1.1"
   },

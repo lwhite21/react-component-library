@@ -15,3 +15,19 @@ export const Default = {
     placeholder: 'Default input'
   },
 };
+
+export const SearchPrimary = {
+  args: {
+    size: 'medium',
+    placeholder: 'Primary search input',
+    search: 'search-primary',
+  },
+};
+
+export const SearchSecondary = {
+  args: {
+    size: 'medium',
+    placeholder: 'Secondary search input',
+    search: 'search-secondary',
+  },
+};

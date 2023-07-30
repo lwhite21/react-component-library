@@ -1,26 +1,122 @@
+.simplicity-search-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 .simplicity-input {
+    outline: none;
+    border: transparent;
+    color: black;
+}
+
+.simplicity-span-input {
     font-family: '-apple-system','BlinkMacSystemFont','segoe ui','Roboto','helvetica neue','Arial','noto sans','sans-serif','apple color emoji','segoe ui emoji','segoe ui symbol','noto color emoji';
-    border-radius: .25em;
     transition: .2s;
     border: 1px solid rgba(0, 0, 0, .15);
     outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.simplicity-input:focus {
-    border: 1px solid #007bff !important;
+.simplicity-span-input-search-primary {
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.simplicity-span-input-search-secondary {
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.simplicity-span-input:focus-within {
+    border: 1px solid #007bff;
 }
 
 .simplicity-input-small {
     font-size: 12px;
-    padding: 3px 6px;
+    padding: 0px 6px;
 }
 
 .simplicity-input-medium {
     font-size: 16px;
-    padding: 4.5px 8px;
+    padding: 0px 8px;
 }
 
 .simplicity-input-large {
-    font-size: 20px;
-    padding: 5.5px 10px;
+    font-size: 22px;
+    padding: 0px 10px;
+}
+
+.simplicity-span-input-small {
+    height: 22px;
+    width: auto; 
+    border-radius: 3px;
+}
+
+.simplicity-span-input-medium {
+    height: 30px;
+    width: auto;
+    border-radius: 4px;
+}
+
+.simplicity-span-input-large {
+    height: 38px;
+    width: auto;
+    border-radius: 5.5px;
+}
+
+.simplicity-input-search-button {
+    border: none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.simplicity-input-search-button-small {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    height: 12px;
+    width: 12px;
+    padding: 5px;
+}
+
+.simplicity-input-search-button-medium {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    height: 16px;
+    width: 16px;
+    padding: 7px;
+}
+
+.simplicity-input-search-button-large {
+    border-top-right-radius: 5.5px;
+    border-bottom-right-radius: 5.5px;
+    height: 20px;
+    width: 20px;
+    padding: 9px;
+}
+
+.simplicity-input-search-primary {
+    background-color: #007bff;
+    border: 1px solid #007bff;
+}
+
+.simplicity-input-search-primary:hover {
+    background-color: #238cfc;
+}
+
+.simplicity-input-search-primary:active {
+    background-color: #0067d6;
+}
+
+.simplicity-input-search-secondary {
+    border: 1px solid rgba(0, 0, 0, .15);
+}
+
+.simplicity-input-search-secondary:hover {
+    background-color: #fcfcfc;
+}
+
+.simplicity-input-search-secondary:active {
+    border: 1px solid #007bff;
 }
